@@ -75,7 +75,7 @@ app.add_middleware(
 # below reads from this in-memory table -- nothing here is invented.
 # ---------------------------------------------------------------------------
 DATA_DIR = BASE_DIR.parent / "data"
-_x_test_path = DATA_DIR / "x_test_sample.csv"
+_x_test_path = DATA_DIR / "x_test_sample.csv.gz"
 _y_test_path = DATA_DIR / "y_test_sample.csv"
 
 EVAL_AVAILABLE = _x_test_path.exists() and _y_test_path.exists()
