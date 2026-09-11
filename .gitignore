@@ -1,4 +1,6 @@
-data/
+data/*
+!data/x_test_sample.csv.gz
+!data/y_test_sample.csv
 __pycache__/
 *.pyc
 .venv/
